@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(202, 130, 161) 0%, rgb(150, 103, 189) 100%);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(201, 181, 190);
+    background: radial-gradient(circle, rgb(219, 127, 167) 0%, rgb(127, 77, 192) 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-menor {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input {
+    height: 100%;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.resultado {
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.itens {
+    color: rgb(34, 28, 28);
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
